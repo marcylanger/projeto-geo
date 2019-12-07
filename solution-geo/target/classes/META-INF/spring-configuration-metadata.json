@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "br.edu.utfpr.solution_geo.application.configuration.settings.AppSettings",
+      "sourceType": "br.edu.utfpr.solution_geo.application.configuration.settings.AppSettings"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.external-url",
+      "type": "java.lang.String",
+      "description": "URL externa da aplicação.",
+      "sourceType": "br.edu.utfpr.solution_geo.application.configuration.settings.AppSettings"
+    },
+    {
+      "name": "app.mail-from",
+      "type": "java.lang.String",
+      "description": "Remetente padrão para envio de emails.",
+      "sourceType": "br.edu.utfpr.solution_geo.application.configuration.settings.AppSettings"
+    },
+    {
+      "name": "app.password-token-expiration-hours",
+      "type": "java.lang.Integer",
+      "description": "Tempo de expiração do token de redefinição de senha.",
+      "sourceType": "br.edu.utfpr.solution_geo.application.configuration.settings.AppSettings"
+    }
+  ],
+  "hints": []
+}
